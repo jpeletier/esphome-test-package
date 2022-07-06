@@ -1,0 +1,4 @@
+binary_sensor:
+  platform: gpio
+  pin: ${pin}
+  name: "Super Sensor ${name}"
