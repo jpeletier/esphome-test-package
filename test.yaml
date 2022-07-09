@@ -4,10 +4,10 @@
       pin: ${pin}
       name: "Super Sensor ${name}"
       id: supersensor
-   - !include
+  - !include
        url: https://github.com/jpeletier/otherpackage.git
        file: otherfile.yaml
        refresh: 10s
-    - sensor:
-        - id: livingroom
-          name: "Different Name"
+  - sensor:
+     - id: livingroom
+       name: "Different Name"
