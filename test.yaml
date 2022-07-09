@@ -5,7 +5,7 @@
       name: "Super Sensor ${name}"
       id: supersensor
   - !include
-       url: https://github.com/jpeletier/otherpackage.git
+       url: https://github.com/jpeletier/esphome-test-livingroom.git
        file: othertest.yaml
        refresh: 10s
   - sensor:
