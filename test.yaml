@@ -1,5 +1,13 @@
-binary_sensor:
-  - platform: gpio
-    pin: ${pin}
-    name: "Super Sensor ${name}"
-    id: supersensor
+!merge
+  - binary_sensor:
+    - platform: gpio
+      pin: ${pin}
+      name: "Super Sensor ${name}"
+      id: supersensor
+   - !include
+       url: https://github.com/jpeletier/otherpackage.git
+       file: otherfile.yaml
+       refresh: 10s
+    - sensor:
+        - id: livingroom
+          name: "Different Name"
