@@ -6,7 +6,7 @@
       id: supersensor
   - !include
        url: https://github.com/jpeletier/otherpackage.git
-       file: otherfile.yaml
+       file: othertest.yaml
        refresh: 10s
   - sensor:
      - id: livingroom
